@@ -1,4 +1,4 @@
-# USA GDP Bar Chart
+# Monthly Global Land-Surface Temperature
 
 This project was created to pass [FCC](https://www.freecodecamp.org/) Visualize Data with a Heat Map Challenge.
 
