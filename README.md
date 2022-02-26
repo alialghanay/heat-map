@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# USA GDP Bar Chart
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created to pass [FCC](https://www.freecodecamp.org/) Visualize Data with a Heat Map Challenge.
+
 
 ## Available Scripts
 
-In the project directory, you can run:
+project [gh-page](https://alialghanay.github.io/heat-map/).
 
-### `npm start`
+## Project User Story 
+### 1: 
+My heat map should have a title with a corresponding `id="title"`.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 2:
+My heat map should have a description with a corresponding `id="description"`.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 3:
+My heat map should have an x-axis with a corresponding `id="x-axis"`.
 
-### `npm test`
+### 4:
+My heat map should have a y-axis with a corresponding `id="y-axis"`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 5:
+My heat map should have `rect` elements with a `class="cell"` that represent the data.
 
-### `npm run build`
+### 6:
+There should be at least 4 different fill colors used for the cells.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 7:
+Each cell will have the properties `data-month`, `data-year`, `data-temp` containing their corresponding `month`, `year`, and `temperature` values.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 8:
+The `data-month`, `data-year` of each cell should be within the range of the data.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 9:
+My heat map should have cells that align with the corresponding month on the y-axis.
 
-### `npm run eject`
+### 10:
+My heat map should have cells that align with the corresponding year on the x-axis.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 11:
+My heat map should have multiple tick labels on the y-axis with the full month name.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 12:
+My heat map should have multiple tick labels on the x-axis with the years between 1754 and 2015.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 13:
+My heat map should have a legend with a corresponding `id="legend"`.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 14:
+My legend should contain `rect` elements.
 
-## Learn More
+### 15:
+The `rect` elements in the legend should use at least 4 different fill colors.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 16:
+I can mouse over an area and see a tooltip with a corresponding `id="tooltip"` which displays more information about the area.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 17:
+My tooltip should have a `data-year` property that corresponds to the `data-year` of the active area.
 
-### Code Splitting
+Here is the dataset you will need to complete this project: [Global Temperature](https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/global-temperature.json).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## testing the project.
 
-### Analyzing the Bundle Size
+you can test the project if it passing user story by downloading it and then add this:
+`<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
+to ==.\public\index.html==.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# this project made by @alialghanay.

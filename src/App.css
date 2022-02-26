@@ -2,6 +2,24 @@
   text-align: center;
 }
 
+.graph {
+  min-width: 1200px;
+  height: auto;
+  background-color: lightgray;
+}
+
+.cell:hover {
+  opacity: 75%;
+  stroke: black;
+}
+
+#tooltip {
+  visibility: hidden;
+  position: absolute;
+  background-color: #282c34;
+  border-radius: 0.5rem;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
